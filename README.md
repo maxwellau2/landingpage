@@ -1,0 +1,1 @@
+## This is a part of the Odin Project Curriculum, on my journey to learning Web Dev :)
