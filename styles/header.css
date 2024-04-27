@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.apply-font{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav a{
+    text-decoration: none;
+    color:#F9FAF8;
+    padding: 5px;
+    font-size: 24px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-decoration: none;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.navitems{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    gap: 3rem;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    align-items: center;
+    min-height: 300px;
+    padding: 5%;
+}
+
+.hero-maintext{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero-text{
+    color:#F9FAF8;
+}
+
+.hero-header{
+    font-size: 48px;
+}
+
+.hero-subtext{
+    font-size: 18px;
+    max-width: 40rem;
+}
+
+.button-style{
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    min-height: 50px;
+    max-width: 150px;
+    font-size: large;
+    padding: 0;
+    margin: 0;
+    border-style: none;
+}
+
+.video-display{
+    margin: 0;
+    width: 400px;
+    height: 250px;
+}
+
+.slider-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin: 2%;
+}
+
+.sliders{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.slider-image{
+    display: flex;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 10px;
+    border: 5px solid;
+    border-color: #3882F6;
+    justify-content: center;
+}
+
+.slider-item{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 20%;
+    text-align: center;
+}
+
+.inspirational-quote-box{
+    padding: 5rem;
+    background-color: #E4E7EB;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inspirational-quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 50%;
+    text-align: center;
+}
+
+.author{
+    font-style: normal;
+    font-weight: bolder;
+    justify-self: right;
+    justify-content: right;
+    width: 100%;
+}
+
+.call-to-action-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.call-to-action{
+    display: flex;
+    background-color: #3882F6;
+    flex-direction: row;
+    width: 50rem;
+    height: 7rem;
+    margin: 5rem;
+    align-items:center;
+    border-radius: 10px;
+}
+
+.call-to-action-text{
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    width: 70%;
+    justify-content: center;
+    padding-left: 5rem;
+}
+
+.call-to-action-button{
+    border: 3px solid;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 10px;
+    border-color: #E4E7EB;
+}
+
+.copyright{
+    background-color: #1F2937;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    color: #E4E7EB;
+    padding: 20px;
+}
